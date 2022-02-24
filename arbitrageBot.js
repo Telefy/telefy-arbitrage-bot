@@ -342,7 +342,7 @@ var con = mysql.createConnection({
         console.log("SUSHISWAP PRICE 1:",result[1].trade1.outputAmount.toSignificant(6))
         console.log("UNISWAP PRICE 2:",result[0].trade2.outputAmount.toSignificant(6))
         console.log("SUSHISWAP PRICE 2:",result[1].trade2.outputAmount.toSignificant(6))
-        // console.log("Arbitrage % 1:",arbitrage)
+        console.log("Arbitrage % 1:",arbitrage)
         // console.log("Arbitrage % 2:",arbitrage1)
         // console.log("Arbitrage % 3:",arbitrage2)
         // console.log("UNISWAP details:",result[0].data)
